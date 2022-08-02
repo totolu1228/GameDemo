@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\LoadScene\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\MainScene\MainScene.cs" />
+    <Compile Include="Assets\Scripts\Models\GameSetting.cs" />
     <Compile Include="Assets\Scripts\SettingScene\SettingScene.cs" />
     <Compile Include="Assets\Scripts\Utils\SceneBase.cs" />
     <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
@@ -247,6 +248,12 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:\Unity\2019.4.28f1c1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>Assets\Plugins\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="VLCore">
+      <HintPath>Assets\Plugins\VLCore.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\2019.4.28f1c1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

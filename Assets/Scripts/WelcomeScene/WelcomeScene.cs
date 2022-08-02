@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class WelcomeScene : SceneBase
 {
-    private void Awake()
-    {
-        //Screen.SetResolution(1024, 576, false);
-    }
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+        if (GameManager.Instance)
+            audioSource.volume = GameManager.Instance.GameSetting.Volume;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
